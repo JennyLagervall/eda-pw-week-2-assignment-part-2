@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We begin by creating a variable called 'name' and set this variable to the value of 'Dane' (a string value)
+// We then create a conditional statement code where if the value of the variable 'name' is exactly 'Mary' we will console log 'Hi, Mary!'
+// We the set the second condition that if the variable 'name' is set to anything other than 'mary', we will console log 'How do you do?'
+// Due to the 'name' varialbe being set to 'dane', we will console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We begin by creating the two new varibles 'secret' and 'code'.
+// the value of the 'secret' variable is to be defined by the coming code. 
+// the 'code' variable is set to the number 123
+// We then create the first part of a conditional code that states that if code is exactly 123, the value of the 'secret' variable
+// will become 'super' and the value of the variable 'code' will become the original value of 'code' (123) multiplied by 2. 
+// The second part of our conditional statement states that if the value of the 'code' variable is greater than 250, the the value
+// of the 'secret' value will become 'duper'.
+// Due to 'code' being set to 123, when we consol log 'secret' our output will show the word 'super'
 
 //CODE
 /*
@@ -70,10 +74,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We begin by creating three new variables; isStudent, age, and zip.
+// isStudent is set to the value true (a boolean), and age is set to 34, while zip is set to 55407.
+// We the create a conditional statement that states if 'isStudent' is set to true AND 'zip' is greater than 8,000, then 
+// we will console log 'You're a student on the West Coast!'
+// if 'isStudent' is set to false OR age is less than 30, we will console log 'What are your hobbies?'
+// if'isStudent' is set to true, we will console log  'Welcome to Prime!'
+// Finally, if none of our variables match the above three statements, we will console log 'How about the weather?'
+// Since 'isStudent' is set to true, we should console log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -136,6 +144,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - need to add "colorTwo = 'purple';" here
 }
 */
 
@@ -148,6 +157,8 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// FIX - should be && indicate AND instead of || (which means OR)
+// should be: "if (temp > 39 && time >= 4) {"
   console.log('throw away the food!');
 }
 */
@@ -162,6 +173,7 @@ const minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
+FIX- Can be fixed a few ways 1) switch no entry and entry OR make "if(age < minAge) { console.log('no entry');"
 } else {
   console.log('enter');
 }
